@@ -1,0 +1,9 @@
+@import '../colors.scss';
+
+.select-package-details {
+  &.formik-select-container {
+    & .formik-select-container__placeholder {
+      color: $darkPurple;
+    }
+  }
+}

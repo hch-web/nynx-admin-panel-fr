@@ -1,0 +1,74 @@
+// @import '../colors.scss';
+
+.gigDetail {
+  & .ratingIcons {
+    color: #fea87e;
+  }
+  & .freelancerInfo {
+    border-radius: 20px;
+    background: #ffe3c5;
+  }
+
+  & .freelanceProfileInfo {
+    background: #ffffff;
+  }
+
+  & .infoContainer {
+    width: 50%;
+  }
+
+  @media only screen and (max-width: 767px) {
+    & .infoContainer {
+      width: 100%;
+    }
+  }
+}
+
+.packageDetails {
+  & .lightYellow {
+    background-color: #ffe3c5;
+  }
+
+  & .offWhite {
+    background-color: #ffebd6;
+  }
+
+  & .lightDarkerPink {
+    background-color: #ffdfcb;
+    width: 100% !important;
+  }
+
+  & .lighterOffWhite {
+    background-color: #ffe9db;
+  }
+
+  & .selectBtn {
+    width: 50%;
+
+    // & .formik-select-container__placeholder {
+    //   // color: $darkPurple;
+    // }
+  }
+
+  & .selectBtn:hover {
+    border-color: none;
+  }
+
+  & .packageType {
+    background: #fea87e;
+    padding: 5px 25px;
+    border-radius: 30px;
+  }
+
+  @media only screen and (max-width: 467px) {
+    & .selectBtn {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 827px) and (min-width: 668px) {
+    & .selectBtn {
+      width: 70% !important;
+    }
+  }
+}

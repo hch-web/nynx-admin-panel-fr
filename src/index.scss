@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f3f5fa;
+  &::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+  }
+
+  &::-webkit-scrollbar-track {
+    background: white; /* color of the tracking area */
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #422438; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid white; /* creates padding around scroll thumb */
+  }
+}
+.overflow-auto {
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+  }
+
+  &::-webkit-scrollbar-track {
+    background: white; /* color of the tracking area */
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #422438; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid white; /* creates padding around scroll thumb */
+  }
+}
+.status {
+  text-transform: capitalize;
+}
+.MuiTooltip-popper[data-popper-placement*='right'] .css-ja5taz-MuiTooltip-tooltip {
+  margin-left: 0px !important;
+}
+.MuiTableCell-head {
+  text-align: center !important;
+}
+.MuiTableCell-body {
+  text-align: center !important;
+}
+.breakAll {
+  word-break: break-all;
+}
+.dropdown-toggle {
+  &::after {
+    display: none !important;
+  }
+}
+.pointer {
+  cursor: pointer;
+}
+.responsive-text {
+  white-space: pre-line;
+  overflow-wrap: break-word;
+}
+.css-cveggr-MuiListItemIcon-root {
+  color: rgb(66 36 56) !important ;
+}
+.css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+  color: rgb(66 36 56) !important ;
+}
+.top-left-corner-border {
+  border-radius: 15px 0px 0px 0px;
+}
+
+.top-right-corner-border {
+  border-radius: 0px 15px 0px 0px;
+}
+
+th {
+  padding-left: 15px;
+}
+// border Radius
+.common-border {
+  border-radius: 10px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.noWrap {
+  white-space: nowrap;
+}
+
+.truncate-2 {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.preLineBreak {
+  white-space: pre-line;
+}
+
+.ck.ck-content {
+  min-height: 250px;
+  max-height: 350px;
+}
+/* slick slider customization */
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
+.slick-prev:before {
+  content: url('./assets/arrowPrev.png') !important;
+  position: absolute !important;
+  opacity: 100% !important;
+  top: -16px !important;
+  left: 35px !important;
+}
+
+.slick-prev {
+  z-index: 10 !important;
+}
+.slick-next:before {
+  content: url('./assets/arrowNext.png') !important;
+  position: absolute !important;
+  right: 35px !important;
+  opacity: 100% !important;
+  top: -16px !important;
+}

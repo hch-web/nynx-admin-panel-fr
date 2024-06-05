@@ -1,0 +1,357 @@
+.profileDetails {
+  background-color: white;
+  border-radius: 10px;
+
+  & .profileImg {
+    border-radius: 10px;
+    max-width: 95%;
+  }
+
+  & .onlineIcon {
+    color: #50cd89;
+    font-size: 20px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    border: 3px solid white;
+    border-radius: 50%;
+  }
+
+  & .statsBox {
+    border: 1px solid #ece9eb;
+    border-radius: 10px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  & .profile-link {
+    color: #fea87e;
+    border-bottom: 3px solid;
+  }
+
+  & .active {
+    color: #fea87e;
+    border-bottom: 3px solid;
+    cursor: pointer;
+  }
+
+  & .active:hover {
+    color: #fea87e;
+    border-bottom: 3px solid;
+    cursor: pointer;
+  }
+
+  & .profileInfoLikns:hover {
+    color: #fea87e;
+    border-bottom: 3px solid;
+    cursor: pointer;
+  }
+
+  & .titleLInk {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  & .profilLink {
+    color: #50cd89;
+  }
+
+  @media only screen and (max-width: 733px) {
+    & .profileInfoContainer {
+      flex-wrap: wrap;
+    }
+  }
+
+  @media screen and (max-width: 991px) and (min-width: 733px) {
+    .profileImgContainer {
+      padding-right: 1.2rem !important;
+    }
+  }
+  
+  @media only screen and (max-width: 733px) {
+    & .responsiveImageContainer {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    & .contentFullWidth {
+      width: 100%;
+    }
+
+    & .locationCenterAlign {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    & .centerAlign {
+      text-align: center;
+    }
+
+    & .infoBoxesContainer {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    & .progressBar {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+
+    & .profileImgContainer {
+      padding-right: 0px !important;
+    }
+
+    & .iconContainer {
+      width: 0px !important;
+    }
+  }
+  @media only screen and (max-width: 1199px) {
+    & .profileTitle {
+      margin-top: 16px !important;
+    }
+  }
+
+  @media screen and (max-width: 1200px) and (min-width: 992px) {
+    & .nameContainer {
+      padding-top: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 1262px) {
+    & .progressBarResponsive {
+      display: none !important;
+    }
+
+    & .hiddenProgressBar {
+      display: block !important;
+      padding-top: 20px !important;
+      padding-bottom: 20px !important;
+    }
+  }
+
+  @media only screen and (max-width: 456px) {
+    & .profileResponsive {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    & .centerAlign {
+      display: flex;
+      align-items: center;
+    }
+
+    & .statsBox {
+      margin-right: 5px;
+    }
+
+    & .progressBarResponsive {
+      padding-bottom: 8px;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+    & .hiddenProgressBar {
+      padding-top: 0px !important;
+    }
+  }
+}
+
+.basicInfo {
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+
+  & .editIcon {
+    background: #fac751;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  & .editIcon:hover {
+    background: #dfb34d;
+  }
+
+  .infoHeader {
+    height: 4rem;
+    max-height: 4rem;
+  }
+}
+
+.basicInfoForm {
+  background-color: white;
+  border-radius: 0px 0px 10px 10px;
+
+  & .inputDesign {
+    color: #422438 !important;
+    font-size: 14px;
+    font-family: 'Roboto Flex' !important;
+    max-width: 100%;
+    border-radius: 5px;
+    font-weight: 500 !important;
+  }
+
+  & .pinkBackground {
+    background: #fff6ec !important;
+    border: transparent !important;
+  }
+
+  & ::placeholder {
+    color: #422438;
+  }
+
+  & .formFooter {
+    height: 4rem;
+    max-height: 4rem;
+  }
+  & .basicInfoFirstForm {
+    padding-top: 30px;
+  }
+
+  & .basicInfoForm {
+    padding-top: 10px;
+  }
+
+  @media only screen and (max-width: 456px) {
+    & .basicInfoFirstForm {
+      padding-top: 10px;
+    }
+  }
+}
+
+.cancelBtn {
+  padding: 0.6rem;
+}
+
+.cancelBtn:hover {
+  background-color: #f6f4f5;
+  padding: 0.6rem;
+  border-radius: 20px;
+}
+
+.notifications {
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+
+  & .notificationHeader {
+    height: 4rem;
+    max-height: 4rem;
+  }
+}
+
+.notificationsCheckBoxes {
+  @media only screen and (max-width: 556px) {
+    & .checkbox {
+      padding-top: 0px !important;
+    }
+
+    & .checkbox-label {
+      padding-top: 5px !important;
+    }
+  }
+}
+
+.notificationFooter {
+  height: 4rem;
+  max-height: 4rem;
+}
+
+.boxContainer {
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+}
+.securityBoxContainer {
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+}
+.header {
+  height: 4rem;
+  max-height: 4rem;
+}
+
+.footer {
+  height: 4rem;
+  max-height: 4rem;
+}
+
+.bottomFooter {
+  background: #ffffff;
+  border-radius: 0px 0px 10px 10px;
+
+  @media only screen and (max-width: 456px) {
+    & .slogen {
+      margin-top: -8px !important;
+    }
+    & .switch {
+      margin-top: -7px !important;
+    }
+    & .socialMediaTitle {
+      margin-top: -13px !important;
+    }
+  }
+}
+
+.deactivateAccount {
+  background-color: white;
+
+  & .infoBox {
+    background: #fff9f4;
+    border: 1px dashed #f89c47;
+    border-radius: 5px;
+  }
+}
+
+.deactivate-button {
+  background: #fff9f4 !important;
+  color: #d20000;
+}
+
+.billingAddressContainer {
+  background-color: white;
+  border-radius: 0px 0px 10px 10px;
+
+  & .addressBox {
+    border: 1px solid #ece9eb;
+    border-radius: 10px;
+  }
+
+  & .newLineBreak {
+    white-space: pre-line;
+  }
+
+  & .primaryButton {
+    background: #e8fff3;
+    border-radius: 10px;
+  }
+
+  & .editButton {
+    background: #f6eced;
+    border-radius: 10px;
+  }
+
+  & .deleteBtn:hover {
+    background-color: #f6f4f5;
+    border-radius: 5px;
+  }
+
+  @media only screen and (max-width: 456px) {
+    & .cardContainer {
+      padding-top: 1.5rem !important;
+      padding-bottom: 0rem !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 456px) {
+  .tabBarContainer {
+    margin-top: -30px !important;
+  }
+}

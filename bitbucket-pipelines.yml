@@ -1,0 +1,16 @@
+image: python:3.11.2
+pipelines:
+ # default:
+    #- step:
+     #   caches:
+     #     - node
+     #     - pip
+     #   script:
+      #    - npm install
+       #   - npm test
+  branches:
+    staging:
+      - step:
+          script:
+            - apt-get update
+            - ssh ubuntu@52.56.103.224 /home/ubuntu/nynx-admin-fr/devCdScript.sh

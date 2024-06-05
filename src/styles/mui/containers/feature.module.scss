@@ -1,0 +1,15 @@
+.customTextField {
+  border: 1px solid;
+  border-radius: 3px;
+  border-color: #c4c4c4;
+  padding: 13px 23px;
+  width: 100%;
+  background: none;
+  
+    &:focus {
+      border-color: #e3d6d1 !important;
+      outline: none;
+      box-shadow: 0px 0px 5px #cfcfcf;
+    }
+  }
+  

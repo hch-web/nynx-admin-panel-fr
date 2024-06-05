@@ -1,0 +1,53 @@
+$navbar: 80px;
+$sidebarWidth: 250px;
+$smallSidebarWidth: 60px;
+
+.navbarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  box-shadow: 0 0 10px rgba(187, 187, 187, 0.5);
+
+  .navLogo {
+    width: 170px;
+  }
+}
+
+.sidebarContainer {
+  background: white;
+  width: $sidebarWidth;
+  max-width: $sidebarWidth;
+  border-right: 1px solid #eef0f8;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin-top: $navbar;
+  padding-top: 30px;
+  box-shadow: 0 6px 10px rgba(187, 187, 187, 0.5);
+
+  @media screen and (max-width: 767px) {
+    width: $smallSidebarWidth;
+    max-width: $smallSidebarWidth;
+
+    & .listItemIcon {
+      min-width: auto;
+    }
+  }
+}
+
+.mainContainer {
+  height: calc(100vh - $navbar);
+  margin-left: $sidebarWidth;
+  margin-top: $navbar;
+  overflow: auto;
+  width: calc(100% - $sidebarWidth);
+  padding: 20px;
+
+  @media screen and (max-width: 767px) {
+    margin-left: $smallSidebarWidth;
+    width: calc(100% - $smallSidebarWidth);
+    padding: 16px;
+  }
+}

@@ -1,0 +1,34 @@
+
+
+.selectContainer {
+  & .selectContainer__placeholder {
+    color: Purple;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+  }
+}
+
+.formik-select-container {
+  & .formik-select-container__control {
+    border-radius: 10px;
+    border-color: #e3d6d1;
+  }
+
+  & .formik-select-container__placeholder {
+    font-family: 'Poppins', sans-serif;
+    // font-weight: 500;
+  }
+
+  & .formik-select-container__value-container {
+    padding: 13px 15px;
+  }
+
+  & .formik-select-container__input-container {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.field-error {
+  font-size: 13px;
+}

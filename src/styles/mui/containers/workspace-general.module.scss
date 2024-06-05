@@ -1,0 +1,18 @@
+.fileIcon {
+  width: min(40px) max(50px);
+  height: 100%;
+  margin-right: 10px;
+}
+
+.listItems {
+  & ol {
+    & li {
+      padding-left: 10px;
+
+      &::marker {
+        color: #fea87e;
+      }
+
+    }
+  }
+}
